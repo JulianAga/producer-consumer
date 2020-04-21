@@ -20,7 +20,7 @@ public class BeerHouse {
     return false;
   }
 
-  public void printBeers() {
+   synchronized public void printBeers() {
     System.out.println(beers);
   }
 }
